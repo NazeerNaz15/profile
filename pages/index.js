@@ -19,6 +19,7 @@ export default function Home() {
           <div className='row'>
             <div className='col-12'>
               <h1>Hi, Welcome to my profile</h1>
+              <p className='text-center'>I will make your Imagination into Real</p>
             </div>
           </div>
         </div>
