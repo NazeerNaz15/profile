@@ -14,15 +14,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${inter.className}`}>
+        <section className='m-5'>
         <div className='container'>
           <div className='row'>
             <div className='col-12'>
               <h1>Hi, Welcome to my profile</h1>
-              <p className='text-center'>I will make your Imagination into Real</p>
+              <p className='text-black'>I will make your Imagination into Real</p>
+              
             </div>
           </div>
         </div>
+
+        </section>
+      
       </main>
     </>
   )
